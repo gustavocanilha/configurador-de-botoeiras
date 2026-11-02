@@ -1,0 +1,1 @@
+Bot. de {local} {fornecedor} Logo {logo} - {modelo} - {qtd_botoes}x Botão {modelo_botao} LED {led_botoes} - IPD {modelo_ipd} LED {cor_ipd} Fundo {fundo_ipd} - Interc.: {intercomunicador} - Sirene: {sirene} - SS: {sinal_sonoro} - Chave: {chave} - {material}

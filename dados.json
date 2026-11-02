@@ -1,0 +1,235 @@
+{
+  "versao": 1,
+  "template": "Bot. de {local} {fornecedor} Logo {logo} - {modelo} - {qtd_botoes}x Botão {modelo_botao} LED {led_botoes} - IPD {modelo_ipd} LED {cor_ipd} Fundo {fundo_ipd} - Interc.: {intercomunicador} - Sirene: {sirene} - SS: {sinal_sonoro} - Chave: {chave} - {material}",
+  "prefixos": {
+    "Cabina": "K2",
+    "Pavimento": "K3"
+  },
+  "campos": [
+    {
+      "id": "fornecedor",
+      "rotulo": "Fornecedor",
+      "opcoes": [
+        "Elevcom",
+        "Vega"
+      ]
+    },
+    {
+      "id": "local",
+      "rotulo": "Local",
+      "opcoes": [
+        "Cabina",
+        "Pavimento"
+      ]
+    },
+    {
+      "id": "modelo",
+      "rotulo": "Modelo",
+      "opcoes": [
+        "ELX 400",
+        "ELX 600",
+        "ELX Inox Glass",
+        "Elevcom Acessibilidade",
+        "Italia Soft",
+        "Venice",
+        "Venice Touch",
+        "Tosca",
+        "Florence",
+        "Colonna"
+      ]
+    },
+    {
+      "id": "logo",
+      "rotulo": "Logo",
+      "opcoes": [
+        "Engix",
+        "Elift-X"
+      ]
+    },
+    {
+      "id": "modelo_botao",
+      "rotulo": "Modelo do botão",
+      "opcoes": [
+        "ELX 400",
+        "ELX 600",
+        "ELX Soft",
+        "Joystick",
+        "Achille",
+        "Venus XL",
+        "Touch"
+      ]
+    },
+    {
+      "id": "qtd_botoes",
+      "rotulo": "Quantidade de botões",
+      "opcoes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Sobe",
+        "Desce",
+        "Sobe/Desce"
+      ]
+    },
+    {
+      "id": "led_botoes",
+      "rotulo": "LED dos botões",
+      "opcoes": [
+        "Azul",
+        "Vermelho",
+        "Verde",
+        "Branco",
+        "N/A"
+      ]
+    },
+    {
+      "id": "modelo_ipd",
+      "rotulo": "Modelo do IPD",
+      "opcoes": [
+        "Dieime",
+        "Infolev Glass",
+        "Infolev Big Glass",
+        "Infolev IPDLCD",
+        "Vega Icaro",
+        "Vega Tricolor",
+        "N/A"
+      ]
+    },
+    {
+      "id": "cor_ipd",
+      "rotulo": "Cor do IPD",
+      "opcoes": [
+        "Azul",
+        "Vermelho",
+        "Verde",
+        "Branco"
+      ]
+    },
+    {
+      "id": "fundo_ipd",
+      "rotulo": "Fundo do IPD",
+      "opcoes": [
+        "Preto",
+        "Azul",
+        "N/A"
+      ]
+    },
+    {
+      "id": "intercomunicador",
+      "rotulo": "Intercomunicador",
+      "opcoes": [
+        "Sim",
+        "Não"
+      ]
+    },
+    {
+      "id": "sirene",
+      "rotulo": "Sirene",
+      "opcoes": [
+        "Sim",
+        "Não"
+      ]
+    },
+    {
+      "id": "sinal_sonoro",
+      "rotulo": "Sinal sonoro",
+      "opcoes": [
+        "Sim",
+        "Não"
+      ]
+    },
+    {
+      "id": "chave",
+      "rotulo": "Chave",
+      "opcoes": [
+        "Sim",
+        "Não"
+      ]
+    },
+    {
+      "id": "material",
+      "rotulo": "Material",
+      "opcoes": [
+        "Aço Inox 304 Escovado",
+        "Aço Inox 304 Preto",
+        "Aço Inox 304 Azul",
+        "Aço Inox 304 Amarelo",
+        "Aço Inox 304 Preto Espelhado",
+        "Aço Inox 304 Azul Espelhado",
+        "Aço Inox 304 Amarelo Espelhado",
+        "Vidro Preto",
+        "Vidro Branco",
+        "Vidro Espelhado"
+      ]
+    }
+  ],
+  "compatibilidade": [
+    {
+      "quando": {
+        "campo": "fornecedor",
+        "valor": "Elevcom"
+      },
+      "bloqueia": {
+        "campo": "modelo_botao",
+        "valor": "Achille"
+      }
+    }
+  ],
+  "contadores": {
+    "K2": 3,
+    "K3": 1
+  },
+  "cadastros": [
+    {
+      "codigo": "K2.0001",
+      "chave": "[[\"chave\",\"Sim\"],[\"cor_ipd\",\"Azul\"],[\"fornecedor\",\"Elevcom\"],[\"fundo_ipd\",\"N/A\"],[\"intercomunicador\",\"Sim\"],[\"led_botoes\",\"Azul\"],[\"local\",\"Cabina\"],[\"logo\",\"Engix\"],[\"material\",\"Aço Inox 304 Escovado\"],[\"modelo\",\"ELX 600\"],[\"modelo_botao\",\"ELX 600\"],[\"modelo_ipd\",\"Dieime\"],[\"qtd_botoes\",\"3\"],[\"sinal_sonoro\",\"Sim\"],[\"sirene\",\"Sim\"]]",
+      "valores": {
+        "fornecedor": "Elevcom",
+        "local": "Cabina",
+        "modelo": "ELX 600",
+        "logo": "Engix",
+        "modelo_botao": "ELX 600",
+        "qtd_botoes": "3",
+        "led_botoes": "Azul",
+        "modelo_ipd": "Dieime",
+        "cor_ipd": "Azul",
+        "fundo_ipd": "N/A",
+        "intercomunicador": "Sim",
+        "sirene": "Sim",
+        "sinal_sonoro": "Sim",
+        "chave": "Sim",
+        "material": "Aço Inox 304 Escovado"
+      },
+      "descricao": "Bot. de Cabina Elevcom Logo Engix - ELX 600 - 3x Botão ELX 600 LED Azul - IPD Dieime LED Azul Fundo N/A - Interc.: Sim - Sirene: Sim - SS: Sim - Chave: Sim - Aço Inox 304 Escovado",
+      "criadoEm": "2026-11-01T14:32:55.256Z"
+    },
+    {
+      "codigo": "K2.0002",
+      "chave": "[[\"chave\",\"Sim\"],[\"cor_ipd\",\"Azul\"],[\"fornecedor\",\"Elevcom\"],[\"fundo_ipd\",\"N/A\"],[\"intercomunicador\",\"Sim\"],[\"led_botoes\",\"Azul\"],[\"local\",\"Cabina\"],[\"logo\",\"Engix\"],[\"material\",\"Aço Inox 304 Escovado\"],[\"modelo\",\"ELX 600\"],[\"modelo_botao\",\"ELX 600\"],[\"modelo_ipd\",\"Dieime\"],[\"qtd_botoes\",\"4\"],[\"sinal_sonoro\",\"Sim\"],[\"sirene\",\"Sim\"]]",
+      "valores": {
+        "fornecedor": "Elevcom",
+        "local": "Cabina",
+        "modelo": "ELX 600",
+        "logo": "Engix",
+        "modelo_botao": "ELX 600",
+        "qtd_botoes": "4",
+        "led_botoes": "Azul",
+        "modelo_ipd": "Dieime",
+        "cor_ipd": "Azul",
+        "fundo_ipd": "N/A",
+        "intercomunicador": "Sim",
+        "sirene": "Sim",
+        "sinal_sonoro": "Sim",
+        "chave": "Sim",
+        "material": "Aço Inox 304 Escovado"
+      },
+      "descricao": "Bot. de Cabina Elevcom Logo Engix - ELX 600 - 4x Botão ELX 600 LED Azul - IPD Dieime LED Azul Fundo N/A - Interc.: Sim - Sirene: Sim - SS: Sim - Chave: Sim - Aço Inox 304 Escovado",
+      "criadoEm": "2026-11-01T14:33:31.729Z"
+    }
+  ]
+}
